@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gurbani K. Singh | Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #111827;
+      color: white;
+      padding: 18px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      font-size: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      padding: 90px 10%;
+      background-color: white;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      font-size: 21px;
+      max-width: 800px;
+      color: #4b5563;
+    }
+
+    section {
+      padding: 65px 10%;
+    }
+
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 25px;
+    }
+
+    #skills {
+      background-color: #eef2f7;
+    }
+
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skill {
+      background-color: white;
+      padding: 10px 18px;
+      border-radius: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 22px;
+    }
+
+    .project {
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      color: #4b5563;
+      margin-bottom: 14px;
+    }
+
+    .project a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #111827;
+      color: white;
+    }
+
+    @media (max-width: 700px) {
+      header h1 {
+        font-size: 36px;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <h2>Gurbani K. Singh</h2>
+
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+    </div>
+  </nav>
+
+  <header id="about">
+    <h1>Hi, I'm Gurbani.</h1>
+
+    <p>
+      I am a Rutgers Business School finance student interested in strategy,
+      financial analysis, and solving business problems through data-driven
+      decision-making.
+    </p>
+  </header>
+
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+      <div class="skill">Financial Analysis</div>
+      <div class="skill">Microsoft Excel</div>
+      <div class="skill">Market Research</div>
+      <div class="skill">Business Strategy</div>
+      <div class="skill">Financial Modeling</div>
+      <div class="skill">Data Analysis</div>
+      <div class="skill">Presentation Development</div>
+      <div class="skill">Leadership</div>
+      <div class="skill">Project Management</div>
+      <div class="skill">Communication</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+
+      <div class="project" id="project1">
+        <h3>IPO Valuation Analysis</h3>
+
+        <p>
+          Analyzed a company's proposed IPO using forward P/E valuation,
+          earnings projections, share issuance, and EPS accretion and dilution
+          analysis to evaluate the financial impact of going public.
+        </p>
+
+        <a href="#project1">View Project Summary</a>
+      </div>
+
+      <div class="project" id="project2">
+        <h3>Investment Portfolio Simulation</h3>
+
+        <p>
+          Managed a simulated investment portfolio while evaluating companies,
+          market trends, valuation metrics, risk, and expected returns to make
+          informed investment decisions.
+        </p>
+
+        <a href="#project2">View Project Summary</a>
+      </div>
+
+      <div class="project" id="project3">
+        <h3>Kaur Strength Co. Business Development</h3>
+
+        <p>
+          Developed a fitness coaching business concept including pricing,
+          customer acquisition strategy, operating costs, service offerings,
+          branding, and a digital client interest process.
+        </p>
+
+        <a href="#project3">View Project Summary</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Gurbani K. Singh | Rutgers Business School</p>
+  </footer>
+
+</body>
+</html>
